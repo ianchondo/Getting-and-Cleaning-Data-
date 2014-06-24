@@ -1,0 +1,12 @@
+Getting and Cleaning Data :: Project This README file explains what the anaylsis files:
+
+1.	Obtain the file and unzip the data 
+    from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+    and rename the folder "UCI HAR Dataset".
+    
+2.	Make sure the current working directory is the correct one in R and R studio getwd() and github.
+
+3.  Read the files, identify the data that needs to be merged, merge the data, obtain the means 
+    and standard deviations for each measurement and create a tidy data set "tidyData.txt", which is a 
+    table with 180 rows, 6 activities and 30 individuals (subjects).
+
